@@ -10,3 +10,4 @@ done
 This renames ererything from hashes to number easy to understand
 Now we need to combine all the images numerically by convert *.png +append out.png
 Viewing out.png reviels the flag :)
+Convert by default appends each image in numerical order hence the reason we converted the hashes to numbers
