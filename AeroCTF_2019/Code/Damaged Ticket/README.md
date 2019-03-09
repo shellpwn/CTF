@@ -1,0 +1,1 @@
+I left my computer unattended for a while and did not block it. I had a plane ticket on the desktop, someone had damaged it and now I have only small parts of the ticket, as if it had passed through a "shredder". Help me recover the ticket, I have a plane in a couple of hours!
