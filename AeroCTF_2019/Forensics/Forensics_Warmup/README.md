@@ -1,0 +1,1 @@
+Our developers instead of working often send each other some strange pictures. We somehow caught them looking at these pictures, but when we went to their emails, we received not exactly images. Try to understand how they look at them.
