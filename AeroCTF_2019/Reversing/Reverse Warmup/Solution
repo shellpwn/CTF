@@ -1,0 +1,9 @@
+Opening the file in ghidra and viewing the main.main we see that the input is xored with 0xd and then compared to hardcoded srtring
+We then write a simple python programm to print the pass:
+  data=[0x89,0x77,0x86,0x87,0xa0,0x8d,0x77,0x85,0x8d,0x85,0xd8,0xa3]
+>>> pas=''
+>>> for i in range(len(data)):
+...     pas=pas+chr((data[i]-0x25)^(0xd))
+>>> pass
+'i_love_mem\xbes'
+Guessing the key we get the key as i_love_memes and here we have our flag :)
