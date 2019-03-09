@@ -1,0 +1,1 @@
+We have part of the GE90 engine firmware, which is responsible for the rotors. This engine behaved strangely in one of the flights and it was decided to send it for diagnosis. Look at the firmware, maybe you will find the reasons for strange behavior.
