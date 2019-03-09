@@ -1,0 +1,12 @@
+<h1>Solution</h1>
+We are given a .7z file and unzipping it gives us random images in parts directory
+We first came to know about the count of images by using wc with piping ls output
+We notice that each image is md5sum of a number like md5(0).png is one of the images so we decide now to convert those into simple numberical images
+for i in {0..599}
+do
+hash=$(echo -ne "$i" | md5deep)
+mv "$hash".png "$i".png
+done
+This renames ererything from hashes to number easy to understand
+Now we need to combine all the images numerically by convert *.png +append out.png
+Viewing out.png reviels the flag :)
