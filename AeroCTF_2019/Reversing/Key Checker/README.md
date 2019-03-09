@@ -1,0 +1,1 @@
+Our colleagues from the neighboring design bureau made an interesting protection mechanism for their firmware. They insert the code there to verify the secret key. We were given only the source code. Check if everything is safe there?
